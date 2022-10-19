@@ -1,0 +1,110 @@
+
+.main{
+	
+	background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(nature.jpg) ;
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+h1{
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: lightgrey;
+}
+li:hover{
+	background-color: darkgray;
+	transition: ease;
+	color: black;
+	tex
+}
+a:hover{
+	transition: ease;
+	color: black;
+	text-shadow: black;
+}
+ul{
+	overflow: hidden;
+	list-style-type: none;
+	background-color: darkgray;
+	background-color:rgba(0, 0, 20, 0.5);
+	opacity: ;
+	border-radius: 5px;
+}
+li{
+	padding: 10px;
+	float :right;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: darkgray;
+	margin: 5px;
+
+}
+li:hover{
+	border-radius: 10px;
+	transition: ease 0.3s;
+}
+
+#home {
+	padding-left: -70px;
+	float: left;
+}
+
+form{
+	padding-top:500px;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
+	width: 328px;
+	margin: auto;
+	padding: 80px;
+	border-radius: 15px;
+}
+
+#uname{
+	width: 300px;
+	height: 30px;
+	background-color: rgba(0,0,20, 0.45);
+	border-radius: 3px;
+	border-style: solid;
+}
+
+#pname{
+	width: 300px;
+	height: 30px;
+	background-color: rgba(0,0,20, 0.45);
+	border-radius: 3px;
+	border-style: solid;
+}
+
+label{
+	font-size: 20px;
+	font-family:monospace;
+	color: navajowhite;
+}
+
+button{
+	border-radius: 5px;
+	background-color: lightgrey;
+	border: none;
+	margin-left: 120px;
+	padding: 10px;
+	opacity: 55%;
+}
+
+button:hover{
+	color: black;
+	background-color: indianred;
+	transition: ease 0.3s;
+	opacity: 100%;
+
+}
+
+input,text{
+	color: white;
+}
